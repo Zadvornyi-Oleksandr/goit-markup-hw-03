@@ -1,29 +1,57 @@
-/*---------------------head---------------------*/
+/*head*/
 
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-
-ul {
+/*rezet*/
+ul,
+ol {
   list-style-type: none;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 a {
   text-decoration: none;
 }
-/*---------------------header---------------------*/
+/*Загальны стилі*/
+.container {
+  max-width: 1158px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+/*header*/
 header {
   background: #fff;
   line-height: 1.17;
 }
 
-.header-navigation {
+.padge-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.header-logo {
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -31,6 +59,11 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .header-logo-color {
@@ -42,10 +75,15 @@ header {
   color: #404bbf;
 }
 
-.header-menu-item {
+.header-menu-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .header-menu-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -54,9 +92,18 @@ header {
 }
 .address {
   font-style: normal;
+  margin-left: auto;
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .address-list {
+  padding: 24px 0;
+  display: block;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
