@@ -1,4 +1,4 @@
-/*head*/
+/*------head*---------/
 
 body {
   font-family: "Roboto", sans-serif;
@@ -36,6 +36,7 @@ a {
 header {
   background: #fff;
   line-height: 1.17;
+  margin: 0 auto;
 }
 
 img {
@@ -118,7 +119,7 @@ img {
 .address-list:focus {
   color: #404bbf;
 }
-/*---------------------section1"hero"---------------------*/
+/*------section1"hero"---------------------*/
 .hero {
   padding: 0px 15px;
   margin: 0 auto;
@@ -127,6 +128,9 @@ img {
 }
 
 .hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -166,10 +170,14 @@ img {
   background-color: #404bbf;
 }
 
-/*---------------------section2"features"---------------------*/
+/*------section2"features"---------------------*/
 
-.features {
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
+
 .features-list {
 }
 .features-item {
@@ -189,7 +197,7 @@ img {
   color: #434455;
 }
 
-/*---------------------section3"Our Team"---------------------*/
+/*------section3"Our Team"---------------------*/
 .taste-sect {
   background: #f4f4fd;
 }
@@ -229,7 +237,7 @@ img {
   color: #434455;
 }
 
-/*---------------------section4"Our Portfolio"---------------------*/
+/*------section4"Our Portfolio"---------------------*/
 
 .accent {
   font-weight: 700;
