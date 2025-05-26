@@ -38,6 +38,10 @@ header {
   line-height: 1.17;
 }
 
+img {
+  display: block;
+}
+
 .padge-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -45,6 +49,7 @@ header {
 .header-container {
   display: flex;
   align-items: center;
+  margin-bottom: 18px;
 }
 .header-navigation {
   display: flex;
@@ -117,7 +122,17 @@ header {
   background: #2e2f42;
 }
 
+.hero-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 188px 472px;
+}
+
 .hero-title {
+  width: 472px;
+  height: 278px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
