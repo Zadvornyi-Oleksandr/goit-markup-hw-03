@@ -29,7 +29,6 @@ a {
   max-width: 1158px;
   padding: 0px 15px;
   margin: 0 auto;
-  border-top: none;
 }
 /*header*/
 header {
@@ -271,7 +270,8 @@ section {
   border-top: none;
 }
 
-.container-port {
+.container {
+  border-top: none;
 }
 
 .taste-port {
