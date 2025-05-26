@@ -299,7 +299,8 @@ section {
   text-transform: capitalize;
 }
 
-.accent-img {
+.item-sect-list {
+  border-top: none;
 }
 
 .accent-title {
