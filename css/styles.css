@@ -43,6 +43,10 @@ img {
   display: block;
 }
 
+section {
+  padding: 120px 0;
+}
+
 .padge-header {
   margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
