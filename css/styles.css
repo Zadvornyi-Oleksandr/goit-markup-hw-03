@@ -269,6 +269,7 @@ section {
 /*------section4"Our Portfolio"---------------------*/
 
 .section-port {
+  border-top: none;
 }
 
 .container-port {
@@ -285,7 +286,6 @@ section {
   width: calc((100% - 48px) / 3);
 }
 .list-port {
-  border-top: none;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
 }
