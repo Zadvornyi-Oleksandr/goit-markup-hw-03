@@ -267,10 +267,10 @@ section {
 /*------section4"Our Portfolio"---------------------*/
 
 .section-port {
-  border-top: none;
-}
+  
 
 .container-port {
+  border-top: none; 
 }
 
 .taste-port {
@@ -300,7 +300,6 @@ section {
 }
 
 .item-sect-list {
-  border-top: none;
 }
 
 .accent-title {
