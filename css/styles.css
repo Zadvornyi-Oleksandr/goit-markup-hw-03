@@ -267,7 +267,21 @@ section {
 
 /*------section4"Our Portfolio"---------------------*/
 
+.section-port {
+}
+
+.container-port {
+}
+
+.taste-port {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
 .accent {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
