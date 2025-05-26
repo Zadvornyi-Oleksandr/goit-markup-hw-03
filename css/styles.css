@@ -43,6 +43,7 @@ img {
 }
 
 .padge-header {
+  margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -119,6 +120,9 @@ img {
 }
 /*---------------------section1"hero"---------------------*/
 .hero {
+  padding: 0px 15px;
+  margin: 0 auto;
+  padding: 188px 0;
   background: #2e2f42;
 }
 
@@ -131,6 +135,7 @@ img {
 }
 
 .hero-title {
+  max-width: 496px;
   width: 472px;
   height: 278px;
   font-weight: 700;
@@ -142,6 +147,10 @@ img {
 }
 
 .hero-btn {
+  border-radius: 4px;
+  border: none;
+  height: 56px;
+  min-width: 169px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
