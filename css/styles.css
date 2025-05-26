@@ -207,16 +207,27 @@ section {
   color: #434455;
 }
 
-/*------section3"Our Team"---------------------*/
+/*------sectio3Team"---------------------*/
 .taste-sect {
   background: #f4f4fd;
 }
 
+.container-sect-list {
+  display: flex;
+  gap: 24px;
+}
+
+.container-taste-sect {
+}
+
 .taste-sect-list {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 
 .taste {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
