@@ -279,10 +279,6 @@ section {
 
 /*------section4"Our Portfolio"---------------------*/
 
-.container-port {
-  border-top: none;
-}
-
 .taste-port {
   display: flex;
   flex-wrap: wrap;
