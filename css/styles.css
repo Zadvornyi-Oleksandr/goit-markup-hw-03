@@ -43,6 +43,7 @@ img {
 
 section {
   padding: 120px 0;
+  border-top: none;
 }
 
 .padge-header {
