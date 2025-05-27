@@ -285,7 +285,7 @@ section {
 .container {
 }
 
-.container .container-port {
+.container .container-port .section-port {
   border-top: none;
 }
 
