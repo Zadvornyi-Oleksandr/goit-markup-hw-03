@@ -279,13 +279,7 @@ section {
 
 /*------section4"Our Portfolio"---------------------*/
 
-.section-port {
-}
-
-.container {
-}
-
-.container .container-port .section-port {
+.section-port .container {
   border-top: none;
 }
 
