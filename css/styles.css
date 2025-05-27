@@ -280,10 +280,12 @@ section {
 /*------section4"Our Portfolio"---------------------*/
 
 .section-port {
-  border-top: none;
 }
 
 .container {
+}
+
+.container-port {
   border-top: none;
 }
 
